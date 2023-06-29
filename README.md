@@ -1,3 +1,9 @@
+# 技術要件
+- laravel0
+- react.js
+- TypeScript
+- taiwind.css
+
 # Laravel インストール方法
 1. `docker compose build --no-cache` (ビルドする)
 2. `docker compose up -d` (コンテナをたてる)
