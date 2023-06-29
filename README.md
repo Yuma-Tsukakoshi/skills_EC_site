@@ -1,5 +1,5 @@
 # 技術要件
-- laravel0
+- laravel 10
 - react.js
 - TypeScript
 - taiwind.css
