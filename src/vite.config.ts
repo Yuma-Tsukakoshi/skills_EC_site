@@ -1,14 +1,24 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [
-        laravel({
-            input: [
+        react(),
+        laravel(
+            // input: [
+            //     'resources/css/app.css',
+            //     'resources/js/app.js',
+            //     'resources/scss/app.scss',
+            //     'resources/ts/index.tsx'
+            // ],
+            [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                'resources/scss/app.scss',
+                'resources/ts/index.tsx'
             ],
-            refresh: true,
-        }),
+            // refresh: true,
+        ),
     ],
 });
