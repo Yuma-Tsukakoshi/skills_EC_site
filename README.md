@@ -131,6 +131,8 @@
 4. `npm run dev` or `npm run build`
     - buildは現時点のファイルを読み込んでファイルを生成します (build後にtailwindのクラス名を追加した場合は再度buildが必要です)
     - devは変更点をずっと監視しつづけるのでスペックがギリギリだとパソコンに負荷がかかるかもなので、見た目の編集しないときはbuildを利用してください
+nodeコンテナに入ってからnpm run devする！
+
 
 # # Breeze インストール方法 画面確認
 1. トップページの右上に `Log in` `Register` が表示されていることを確認
