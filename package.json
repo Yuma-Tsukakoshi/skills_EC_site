@@ -11,6 +11,9 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.19",
+    "@mantine/hooks": "^6.0.19",
     "@types/recoil": "^0.0.9",
     "recoil": "^0.7.7"
   }
