@@ -191,4 +191,4 @@ export function HeaderTabs({ user, tabs }: HeaderTabsProps) {
   );
 }
 
-export default HeaderAction;
+export default Header;
